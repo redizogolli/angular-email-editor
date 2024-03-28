@@ -1,0 +1,25 @@
+{
+  "name": "@rzgl/angular-email-editor",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "module": "fesm2022/rzgl-angular-email-editor.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/rzgl-angular-email-editor.mjs",
+      "esm": "./esm2022/rzgl-angular-email-editor.mjs",
+      "default": "./fesm2022/rzgl-angular-email-editor.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
