@@ -27,7 +27,7 @@ Next, you'll need to import the Email Editor module in your app's module.
 
 ```ts
 
-import { EmailEditorModule } from 'angular-email-editor';
+import { EmailEditorModule } from '@rzgl/angular-email-editor';
 ...
 
 @NgModule({
@@ -41,7 +41,7 @@ import { EmailEditorModule } from 'angular-email-editor';
 
 ```ts
 import { Component, ViewChild } from '@angular/core';
-import { EmailEditorComponent } from 'angular-email-editor';
+import { EmailEditorComponent } from '@rzgl/angular-email-editor';
 
 @Component({
   selector: 'app-root',
